@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('<h1>Página inicial!!</h1>');
+  res.send('<h1>Página INICIAL!</h1>');
 });
 
 app.get('/sobre', (req, res) => {
