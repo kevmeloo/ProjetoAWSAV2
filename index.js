@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
 }); // res.send servidor enviando resposta ao cliente
 
 app.get('/sobre', (req, res) => {
-  res.send('<h1>Sobre nós</h1>');
+  res.send('<h1>Sobre nós!</h1>');
 });
 
 app.get('/contato', (req, res) => {
