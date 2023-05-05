@@ -2,7 +2,7 @@ const express = require('express'); // Importação do Express
 const app = express(); //Criação de um aplicativo Express.js chamado 'app'
 
 app.get('/', (req, res) => {
-  res.send('<h1>Página Inicial!!</h1>'); //Definição das rotas 
+  res.send('<h1>Página INICIAL!</h1>'); //Definição das rotas 
 }); // res.send servidor enviando resposta ao cliente
 
 app.get('/sobre', (req, res) => {
